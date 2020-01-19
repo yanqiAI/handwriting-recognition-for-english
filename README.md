@@ -17,9 +17,9 @@ This repository is handwriting recognition for english.
 python train.py 
 
 You can choose a best model for your work.
-1.single letter or multiple letters recognition:  simple_densenet.py ====> Densenet+CTC
-2.words recognition:  densenet_blstm.py ====>Densenet+Bilstm+CTC
-3.a new test for cnn: efficientnet_b0.py ====> efficientnet_b0+Bilstm+CTC
+1. single letter or multiple letters recognition:  simple_densenet.py ====> Densenet+CTC
+2. words recognition:  densenet_blstm.py ====>Densenet+Bilstm+CTC
+3. a new test for cnn: efficientnet_b0.py ====> efficientnet_b0+Bilstm+CTC
 
 
 ## test model
@@ -28,10 +28,10 @@ python test_model.py
 
 You can choose one method for test.
 
-flag=0 # test single or multiple imges
-flag=1 # test file_lst and compute test precision
-flag=2 # find hard samples
+1. flag=0 # test single or multiple imges
+2. flag=1 # test file_lst and compute test precision
+3. flag=2 # find hard samples
 
 ## test precision
--letters: Densenet+CTC  99.8%;
--words: Densenet+Bilstm+CTC  99.0%.
+1. letters: Densenet+CTC  99.8%;
+2. words: Densenet+Bilstm+CTC  99.0%.
